@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Educare</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -56,8 +57,7 @@
     </div>
   </div>
 </nav>
-
-<!-- ========================================== Navbar Section End ========================================================= -->
+<!-- ========================================== Navbar Section End =================================================== -->
 
 <!-- ========================================== Learning Section Start =============================================== -->
 
@@ -103,21 +103,102 @@
 
 <!-- ========================================== Account Section Start =============================================== -->
  
+
 <section id="Account" style="margin-top: 100px; margin-bottom: 100px;">
     <div class="container">
-        <div class="container_wrapper d-flex">
-            <div class="text_part col-lg-6 col-12 mb-4 mb-lg-0">
-                <h2 class="fw-bold" style="padding-top: 76px; line-height: 50px;">Start learning by <br>creating free account <br>and get register</h2>
-                
+        
+        <!-- Row 1 -->
+        <div class="container_wrapper row align-items-center mb-5">
+            <div class="text_part col-lg-7 col-12 mb-4 mb-lg-0">
+                <h2 class="fw-bold" style="padding-top: 20px; line-height: 50px;">Start learning by <br>creating free account <br>and get register</h2>
             </div>
-            <div class="img_part col-lg-5 col-12">
+            <div class="img_part col-lg-5 col-12 text-lg-end">
                 <img src="./images/Account-img.png" style="width: 440px; height: 292px;">
             </div>
         </div>
+
+        <!-- Row 2 -->
+        <div class="box d-flex align-items-center justify-content-center mx-auto" style="background-color: #F9E0AE; width: 1080px; height: 140px; padding: 40px;">
+            <form class="d-flex align-items-center w-100" style="gap: 45px;">
+                
+                <div class="flex-grow-1" style="height: 60px;">
+                    <input type="text" class="form-control h-100 text-center fs-5" placeholder="Your name" style="border: none; border-radius: 0; color: #7a7a7a;">
+                </div>
+                
+                <div class="flex-grow-1" style="height: 60px;">
+                    <input type="email" class="form-control h-100 text-center fs-5" placeholder="Your email address" style="border: none; border-radius: 0; color: #7a7a7a;">
+                </div>
+                
+                <div class="flex-grow-1" style="height: 60px;">
+                    <button type="submit" class="btn h-100 w-100 text-white fw-bold fs-5" style="background-color: #C24914; border: none; border-radius: 0;">
+                        Subscribe
+                    </button>
+                </div>
+
+            </form>
+        </div>
+
     </div>
 </section>
+
+
 <!-- ========================================== Account Section End ================================================= -->
 
+<!-- ========================================== Community Section Start ============================================= -->
+
+
+<section id="Community" class="position-relative overflow-hidden" style="margin-top: 100px; margin-bottom: 100px; padding: 140px 0; background-color: #ffffff;">
+    <div class="container position-relative" style="max-width: 1140px; min-height: 664px;">
+
+        <div class="row justify-start text-center position-relative" style="z-index: 5;"> 
+            <div class="col-lg-8 col-12">
+                
+                <h2 class="fw-bold display-4 mb-3 mt-5" style="font-size: 52px; line-height: 64px; color: #000000; letter-spacing: -0.5px; margin-right: 50px;">
+                    Start growing with <br>our community
+                </h2>
+                
+                <p class="text-muted mb-4 fs-5 mx-auto" style="max-width: 520px; font-size: 16px; line-height: 26px; color: #7a7a7a;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit
+                </p>
+                
+                <div class="mt-4">
+                    <a href="#" class="btn fw-bold px-5 py-3 text-white" style="background-color: #FD841F; border-radius: 12px; font-size: 18px; border: none; min-width: 230px;">
+                        Join community
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <!-- Main Large  Image  -->
+
+        <div class="position-absolute" style="bottom: -100px; right: 0; z-index: 1;">
+            <img src="./images/community-img.png" alt="Main Student" style="width: 996px; height: 664px; object-fit: contain;">
+        </div>
+
+        <!-- wc-1  -->
+
+        <div class="position-absolute" style="top: -60px; left: 58%; z-index: 6;">
+            <img src="./images/wc-1.png" alt="Top Avatar" class="rounded-circle shadow" style="width: 75px; height: 75px; object-fit: cover; border: 4px solid #ffffff;">
+        </div>
+
+        <!-- 3. Mid-Right Profile  -->
+        <div class="position-absolute" style="top: 100px; right: -20px; z-index: 6;">
+            <img src="./images/wc-2.png" alt="Right Avatar" class="rounded-circle shadow" style="width: 75px; height: 75px; object-fit: cover; border: 4px solid #ffffff;">
+        </div>
+
+        <!-- 4. Lower-Left Floating  -->
+        <div class="position-absolute" style="bottom: 140px; left: 8%; z-index: 6;">
+            <img src="./images/wc-3.png" alt="Left Avatar" class="rounded-circle shadow" style="width: 75px; height: 75px; object-fit: cover; border: 4px solid #ffffff;">
+        </div>
+
+        <!-- 5. Bottom-Center Floating Profile  -->
+        <div class="position-absolute" style="bottom: 40px; left: 33%; z-index: 6;">
+            <img src="./images/wc-4.png" alt="Bottom Avatar" class="rounded-circle shadow" style="width: 75px; height: 75px; object-fit: cover; border: 4px solid #ffffff;">
+        </div>
+
+    </div>
+</section>
+<!-- ========================================== Community Section End ============================================== -->
 
 
 
