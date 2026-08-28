@@ -6,7 +6,10 @@
     <title>Educare</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
@@ -118,21 +121,21 @@
         </div>
 
         <!-- Row 2 -->
-        <div class="box d-flex align-items-center justify-content-center mx-auto" style="background-color: #F9E0AE; width: 1080px; height: 140px; padding: 40px;">
+        <div class="box d-flex align-items-center justify-content-center mx-auto" style="background-color: #F9E0AE; width: 100%; height: 140px; padding: 40px;">
             <form class="d-flex align-items-center w-100" style="gap: 45px;">
                 
-                <div class="flex-grow-1" style="height: 60px;">
-                    <input type="text" class="form-control h-100 text-center fs-5" placeholder="Your name" style="border: none; border-radius: 0; color: #7a7a7a;">
+                <div class="flex-grow-1">
+                    <input type="text" class="form-control h-63 w-300 text-center fs-5" placeholder="Your name" style=" border: none; border-radius: 0; color: #7a7a7a;">
                 </div>
                 
-                <div class="flex-grow-1" style="height: 60px;">
-                    <input type="email" class="form-control h-100 text-center fs-5" placeholder="Your email address" style="border: none; border-radius: 0; color: #7a7a7a;">
+                <div class="flex-grow-1">
+                    <input type="email" class="form-control h-63 w-300 text-center fs-5" placeholder="Your email address" style="border: none; border-radius: 0; color: #7a7a7a;">
                 </div>
                 
-                <div class="flex-grow-1" style="height: 60px;">
-                    <button type="submit" class="btn h-100 w-100 text-white fw-bold fs-5" style="background-color: #C24914; border: none; border-radius: 0;">
-                        Subscribe
-                    </button>
+                <div class="flex-grow-1">
+                    <input type="text" class="form-control h-63 w-300 text-center fs-5" placeholder="Subscribe" style="border: none; border-radius: 0; background-color: #C24914">
+                </div>
+                    
                 </div>
 
             </form>
@@ -140,8 +143,6 @@
 
     </div>
 </section>
-
-
 <!-- ========================================== Account Section End ================================================= -->
 
 <!-- ========================================== Community Section Start ============================================= -->
@@ -153,11 +154,11 @@
         <div class="row justify-start text-center position-relative" style="z-index: 5;"> 
             <div class="col-lg-8 col-12">
                 
-                <h2 class="fw-bold display-4 mb-3 mt-5" style="font-size: 52px; line-height: 64px; color: #000000; letter-spacing: -0.5px; margin-right: 50px;">
+                <h2 class="fw-bold display-4 mb-3 mt-5" style="font-size: 52px; line-height: 64px; color: #000000; margin-right: 50px; word-spacing: 5px;">
                     Start growing with <br>our community
                 </h2>
                 
-                <p class="text-muted mb-4 fs-5 mx-auto" style="max-width: 520px; font-size: 16px; line-height: 26px; color: #7a7a7a;">
+                <p class="text-muted mb-4 fs-5 mx-auto" style="max-width: 550px; font-size: 16px; line-height: 26px; color: #7a7a7a;">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit
                 </p>
                 
@@ -166,78 +167,72 @@
                         Join community
                     </a>
                 </div>
-
             </div>
         </div>
-        <!-- Main Large  Image  -->
 
+        <!-- Community-Image  -->
         <div class="position-absolute" style="bottom: -100px; right: 0; z-index: 1;">
             <img src="./images/community-img.png" alt="Main Student" style="width: 996px; height: 664px; object-fit: contain;">
         </div>
 
         <!-- wc-1  -->
-         
         <div class="position-absolute" style="top: -60px; left: 58%; z-index: 6;">
             <img src="./images/wc-1.png" alt="Top Avatar" class="rounded-circle shadow" style="width: 75px; height: 75px; object-fit: cover; border: 4px solid #ffffff;">
         </div>
 
-        <!-- 3. Mid-Right Profile  -->
+        <!-- wc-2  -->
         <div class="position-absolute" style="top: 100px; right: -20px; z-index: 6;">
             <img src="./images/wc-2.png" alt="Right Avatar" class="rounded-circle shadow" style="width: 75px; height: 75px; object-fit: cover; border: 4px solid #ffffff;">
         </div>
 
-        <!-- 4. Lower-Left Floating  -->
+        <!-- wc-3  -->
         <div class="position-absolute" style="bottom: 140px; left: 8%; z-index: 6;">
             <img src="./images/wc-3.png" alt="Left Avatar" class="rounded-circle shadow" style="width: 75px; height: 75px; object-fit: cover; border: 4px solid #ffffff;">
         </div>
 
-        <!-- 5. Bottom-Center Floating Profile  -->
+        <!-- wc-4  -->
         <div class="position-absolute" style="bottom: 40px; left: 33%; z-index: 6;">
             <img src="./images/wc-4.png" alt="Bottom Avatar" class="rounded-circle shadow" style="width: 75px; height: 75px; object-fit: cover; border: 4px solid #ffffff;">
         </div>
-
     </div>
 </section>
 <!-- ========================================== Community Section End ============================================== -->
 
 <!-- ========================================== Footer Section Start =============================================== -->
 
- <footer style="background-color: #FCE1B6; padding: 60px 0 30px 0; font-family: sans-serif;">
+ <footer style="background-color: #FCE1B6; padding: 60px 0 30px 0; font-family: 'Poppins', sans-serif;">
     <div class="container">
-        <!-- Main Footer Links Grid Row -->
         <div class="row g-4 justify-content-between mb-5">
-            
-            <!-- Column 1: Brand Logo -->
+            <!-- Footer-img -->
             <div class="col-lg-3 col-md-6 col-12 d-flex align-items-center mb-3 mb-md-0">
                 <a href="#" class="text-decoration-none d-flex align-items-center">
-                    <img src="./images/logo.png" alt="Educare" style="max-height: 45px;">
+                    <img src="./images/Footer-img.png" alt="Educare" style="max-height: 45px;">
                 </a>
             </div>
 
-            <!-- Column 2: Follow Us Social Connections -->
+            <!-- Column-2 -->
             <div class="col-lg-3 col-md-6 col-12 mb-3 mb-md-0">
                 <h5 class="fw-bold mb-3" style="color: #000000; font-size: 18px;">Follow us</h5>
                 <div class="d-flex align-items-center" style="gap: 15px;">
-                    <!-- Twitter Link Icon -->
                     <a href="#" class="d-flex align-items-center justify-content-center text-decoration-none rounded-circle" style="width: 36px; height: 36px; border: 1px solid #646464; color: #646464;">
                         <i class="fab fa-twitter" style="font-size: 16px;"></i>
                     </a>
-                    <!-- LinkedIn Link Icon -->
+                    <!-- column-3 -->
                     <a href="#" class="d-flex align-items-center justify-content-center text-decoration-none rounded-circle" style="width: 36px; height: 36px; border: 1px solid #646464; color: #646464;">
                         <i class="fab fa-linkedin-in" style="font-size: 16px;"></i>
                     </a>
-                    <!-- Facebook Link Icon -->
+
                     <a href="#" class="d-flex align-items-center justify-content-center text-decoration-none rounded-circle" style="width: 36px; height: 36px; border: 1px solid #646464; color: #646464;">
                         <i class="fab fa-facebook-f" style="font-size: 16px;"></i>
                     </a>
-                    <!-- Instagram Link Icon -->
+            
                     <a href="#" class="d-flex align-items-center justify-content-center text-decoration-none rounded-circle" style="width: 36px; height: 36px; border: 1px solid #646464; color: #646464;">
                         <i class="fab fa-instagram" style="font-size: 16px;"></i>
                     </a>
                 </div>
             </div>
 
-            <!-- Column 3: Useful Navigation Links -->
+        
             <div class="col-lg-3 col-md-6 col-12 mb-3 mb-md-0">
                 <h5 class="fw-bold mb-3" style="color: #000000; font-size: 18px;">Useful Links</h5>
                 <ul class="list-unstyled p-0 m-0">
@@ -253,7 +248,7 @@
                 </ul>
             </div>
 
-            <!-- Column 4: Contact Information Details -->
+            <!-- Column-4 -->
             <div class="col-lg-3 col-md-6 col-12">
                 <h5 class="fw-bold mb-3" style="color: #000000; font-size: 18px;">Contacts</h5>
                 <p class="mb-2" style="color: #646464; font-size: 14px; line-height: 22px;">
@@ -266,13 +261,8 @@
                     Phone Number : +91 4533433265
                 </p>
             </div>
-
         </div>
-
-        <!-- Divider Line Separator -->
         <hr style="border-top: 1px solid rgba(0,0,0,0.1); margin-bottom: 25px;">
-
-        <!-- Bottom Copyright Row Frame -->
         <div class="row">
             <div class="col-12 text-center">
                 <p class="mb-0" style="color: #646464; font-size: 14px; letter-spacing: 0.3px;">
@@ -280,7 +270,6 @@
                 </p>
             </div>
         </div>
-
     </div>
 </footer>
 
