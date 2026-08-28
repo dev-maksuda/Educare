@@ -4,3 +4,50 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+@media (max-width: 767.98px) {
+    .navbar-nav .nav-item {
+        margin-right: 0 !important;
+        margin-bottom: 15px !important;
+        text-align: center !important;
+    }
+
+    .box {
+        height: auto !important;
+        padding: 20px !important;
+    }
+    
+    .box form {
+        flex-direction: column !important;
+        gap: 15px !important;
+    }
+
+    .box form div {
+        width: 100% !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    #Community {
+        padding: 50px 0 !important;
+    }
+
+    #Community .position-absolute {
+        position: relative !important;
+        top: auto !important;
+        bottom: auto !important;
+        left: auto !important;
+        right: auto !important;
+        margin: 15px auto !important;
+        text-align: center !important;
+    }
+
+    #Community img {
+        max-width: 100% !important;
+        height: auto !important;
+        width: auto !important;
+    }
+
+    #Community .rounded-circle {
+        display: none !important;
+    }
+}
